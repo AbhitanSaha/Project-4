@@ -1,0 +1,61 @@
+body
+{
+    text-align: left;
+}
+#home {
+    color: #FFFFFF;
+    bottom: 0;
+   
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#contact iframe
+{
+    width: 400px;
+    
+}
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+
+#videos iframe
+{
+    width: 80%;
+}
+
+
+input
+{
+    background: grey;
+}
+.mynavsbar{
+    position:sticky;
+    top:0;
+    z-index:99999999999999999999999999999999999999999999;
+}
+li{
+    display:inline;
+}
+#home iframe{
+    width: 100%;
+    height: 450px;
+}
+img{
+    height:200px;
+     width:  300px;
+    margin-top: -250px;
+margin-left: 400px;
+}
