@@ -1,92 +1,63 @@
-body
-{
-    text-align: left;
-}
-#home {
-    color: #FFFFFF;
-    bottom: 0;
-   
-    display: table;
+#contact iframe {
     width: 100%;
-    height: 100%;
-    z-index: 9;
 }
-h1 {
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: 300;
-}
-#contact iframe
-{
-    width: 400px;
-    
-}
-.contact_1 h3
-{
+
+.contact_1 h3 {
     display: inline;
 }
-.contact_1 a
-{
+
+.contact_1 a {
     text-shadow: none;
 }
 
-
-#videos iframe
-{
-    width: 80%;
+input {
+    background: grey
 }
 
+.travelmain {
+    border: 2px ridge black;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none;
+}
 
-input
-{
-    background: grey;
-}
-.mynavsbar{
-    position:sticky;
-    top:0;
-    z-index:99999999999999999999999999999999999999999999;
-}
-li{
-    display:inline;
-}
-#home iframe{
+.travelmain img {
     width: 100%;
-    height: 450px;
 }
 
+.travelmain hr {
+    width: 230px;
 }
-.row::after{
-    content:"";
-    clear:both;
-    display:table;
-}
-.maindiv{
-    float: left;
-    width:33.33%;
-    padding:5px;
-    border:1px solid #c7c7c7;
-}
-.maindiv img{
-    width:100%;
-    height:300px;
-}
-.maindiv hr{
-    width:100%;
-}
-.maindiv h5, .maindiv p{
+
+.travelmain h5,
+.travelmain p {
     margin-left: 20px;
 }
-.acievment-head{
+
+.movie-head {
     font-size: 20px;
     padding: 6px 22px;
     border-radius: 10px;
     margin-bottom: 15px;
-    width:100%;
-    display:inline-block;
+    width: 100%;
+    display: inline-block;
 }
-.acievment-head i{
-    float:right;
+.movie-head i{
+    float: right;
 }
-.acievment-text{
-    color: orange;
+.movie-text span{
+  color: darkblue;  
+}
+.enviornment-li{
+    margin-top: 13px;
+}
+.enviornment-li h4{
+    border-bottom: 1px solid black;
+    padding:8px;
+}
+.enviornment-li img{
+    border-radius:25px;
+}
+.enviornment-li p{
+    margin-top: 10px;
 }
